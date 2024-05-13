@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title>Fiverr clone</title>
+</head>
+<style>
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+            background-color:#fefaef;
+        }
+        nav {
+            position: fixed;
+            border-bottom:1px solid black;
+            top: 0;
+            left: 0;
+            height: 60px;
+            width: 100%;
+            background-color: #eff3fe;
+            z-index: 1000;
+          }
+        nav .navbar {
+            margin: 15 60;
+        }
+        nav .title {
+            font-size: 25px;
+            font-weight: 500;
+        }
+        nav .menu {
+            list-style: none;
+            font-size: 20px;
+            font-weight: 400;
+            display: flex;
+            margin: -25 700;
+        }
+        nav .menu li {
+            margin-right:35px;
+        }
+        nav .menu li a {
+            color: black; 
+            text-decoration: none; 
+        }
+        img[src="gif2.gif"] {
+            height:90%;
+            width:100%;
+            margin-top:-10;
+            border-radius: 1%;
+            border:2px solid black;
+        }
+        h1{
+            margin-top: 25px;
+        }
+        img {
+            height:445;
+            width:448;
+            border:2px solid black;
+            margin-bottom: 5px;
+        }
+        table {
+            border: 10px solid #eff3fe;
+            width:100%;
+            border-collapse: collapse;
+            background:#eff3fe;
+        }
+        td {
+        border: 10px solid #eff3fe;
+        color: #ffd801;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-size: 31px;
+        text-align: center;
+        } 
+        button {
+        width: 20%;
+        height: 40px;
+        border-radius: 40px;
+        background-color: #ffd801;
+        font-weight: 600;
+        }
+</style>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="title">
+            <b> Freelancing (Fiverr Clone by HP) </b>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">SignUp</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="developer.html">Developer</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <center><h1>Sign-Up</h1></center>
+    <img src="gif2.gif">
+    <form>
+        <center><h2>Select your Preference : </h2></center>
+        <table>
+            <tr>
+                <td>
+                    <input type="radio"name="type"> 
+                    Freelancer
+                </td>
+                <td>
+                    <input type="radio"name="type"> 
+                    Client
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="type1.jpeg">
+                </td>
+                <td>
+                    <img src="type2.jpeg">
+                </td>
+            </tr>
+        </table>
+        <center><h2>Select your Skills : </h2>
+            <table>
+            <tr>
+            <td><input type="checkbox"name="skill">Graphic Design</td>
+            <td><input type="checkbox"name="skill">Digital Marketing</td>
+            <td><input type="checkbox"name="skill">Writing & Translation</td>
+            <td><input type="checkbox"name="skill">Video Animation</td>
+            </tr>
+            <tr>
+            <td><input type="checkbox"name="skill">Music & Audio</td>
+            <td><input type="checkbox"name="skill">Programming</td>
+            <td><input type="checkbox"name="skill">Photography</td>
+            <td><input type="checkbox"name="skill">Logo Design</td> 
+            </tr>
+            </table>
+            <br>
+            <br>
+            <button>Create My Account</button>
+            <br>
+            <br>
+            Already have an account ? <b><a href="login.html">Login</a></b>
+        </center> 
+    </form>
+</body>
+</html>

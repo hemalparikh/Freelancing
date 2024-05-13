@@ -1,0 +1,135 @@
+<html>
+<head>
+    <title>Fiverr clone</title>
+</head>
+<style>
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+            background-color:#fefaef;
+        }
+        nav {
+            position: fixed;
+            border-bottom:1px solid black;
+            top: 0;
+            left: 0;
+            height: 60px;
+            width: 100%;
+            background-color: #eff3fe;
+            z-index: 1000;
+          }
+        nav .navbar {
+            margin: 15 60;
+        }
+        nav .title {
+            font-size: 25px;
+            font-weight: 500;
+        }
+        nav .menu {
+            list-style: none;
+            font-size: 20px;
+            font-weight: 400;
+            display: flex;
+            margin: -25 700;
+        }
+        nav .menu li {
+            margin-right:35px;
+        }
+        nav .menu li a {
+            color: black; 
+            text-decoration: none; 
+        }
+        img[src="gif3.gif"] {
+            height:90%;
+            width:100%;
+            margin-top:-10;
+            border-radius: 1%;
+            border:2px solid black;
+        }
+        h1{
+            margin-top: 25px;
+        }
+        img {
+            height:30;
+            width:40;
+            margin: -10 0;
+        }
+        table {
+            border: 10px solid #eff3fe;
+            width:100%;
+            border-collapse: collapse;
+            background:#eff3fe;
+        }
+        td {
+        border: 10px solid #eff3fe;
+        color: #ffd801;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-size: 25px;
+        } 
+        button {
+        width: 15%;
+        height: 40px;
+        border-radius: 40px;
+        background-color: #ffd801;
+        font-weight: 600;
+        }
+        .login {
+            float : right;
+            margin: -70 0;
+        }
+</style>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="title">
+            <b> Freelancing (Fiverr Clone by HP) </b>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">SignUp</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="developer.html">Developer</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <center><h1>Login</h1></center>
+    <img src="gif3.gif">
+    <form>
+        <center><h2>Login Details : </h2></center>
+        <table>
+            <tr>
+                <td><img src="email.png"></td>
+                <td>
+                    Email :
+                    <input type="email"name="mail"> 
+                </td>
+            </tr>
+            <tr>
+                <td><img src="password.png"></td>
+                <td>
+                    Password :
+                    <input type="password"name="pass"> 
+                </td>
+            </tr>
+        </table>
+        <div class="login">
+        <input type="checkbox"name="remeber">
+        Remember me
+        <br>
+        <br>
+        <b><a href="/">Forgot Password</a></b>
+        </div>
+        <center>
+        <br>
+        <br>
+        <button>Login</button>
+        <br>
+        <br>
+         Don't have a Account ? <b><a href="signup.html">Register</a></b>
+        </center>
+    </form> 
+</body>
+</html>
